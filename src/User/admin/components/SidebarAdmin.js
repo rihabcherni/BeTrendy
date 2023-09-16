@@ -1,9 +1,8 @@
 import React from "react";
-import { BsTools,BsFillEnvelopeExclamationFill } from "react-icons/bs";
+import {BsFillEnvelopeExclamationFill } from "react-icons/bs";
 import { ImStatsDots } from "react-icons/im";
-import { AiOutlineAreaChart } from "react-icons/ai";
-import { FaFileInvoiceDollar, FaMoneyCheck, FaMoneyBillWave, FaBolt, FaUser,FaUsers, FaHardHat} from "react-icons/fa";
-import { MdReportProblem,MdNotificationsActive } from "react-icons/md"
+import { FaFileInvoiceDollar, FaMoneyCheck,FaUsers} from "react-icons/fa";
+import { MdNotificationsActive } from "react-icons/md"
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 import ContactsIcon from '@mui/icons-material/Contacts';
 

@@ -39,7 +39,7 @@ const SignUp = () => {
       password: signUpInput.password,
     };
       const response = await axios.post("http://127.0.0.1:8000/api/signUp", data);
-      if(response.data.token!=undefined){
+      if(response.data.token!==undefined){
         var role = response.data.Role;
         localStorage.setItem("auth_token", response.data.token);
         localStorage.setItem('Role',role);
