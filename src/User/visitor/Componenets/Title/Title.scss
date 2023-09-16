@@ -1,0 +1,55 @@
+.title-box{
+  margin:3.5% 2% 1%;
+    background: linear-gradient( 123deg, var(--maize) 0%, var(--christine) 100% );
+    color: var(--white);
+    padding: 2rem;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    text-transform: capitalize;
+    .text-primary{
+      letter-spacing: 6px;
+      font-size: 2.5rem;
+      animation: moveLeft 1.5s ease-in;
+      text-shadow: 0 0 15px var(--cloudy);
+    }
+  
+    .text-sub{
+      letter-spacing: 5px;
+      font-size: 1.1rem;
+      animation: moveRight 1.5s ease-in;
+      text-shadow: 0 0 15px var(--cloudy);
+    }
+  }
+  
+  @keyframes moveLeft {
+    0%{
+      opacity: 0;
+      transform: translatex(-80%);
+    }
+    80%{
+      transform: translatex(10px);
+    }
+    100%{
+      opacity:1;
+      transform: translatex(0);
+    }
+  }
+  
+  @keyframes moveRight {
+    0%{
+      opacity: 0;
+      transform: translatex(80%);
+    }
+     80%{
+      transform: translatex(10px);
+    }
+    100%{
+      opacity:1;
+      transform: translatex(0);
+    }
+  }
+
+
+  

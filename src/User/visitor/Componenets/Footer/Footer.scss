@@ -1,0 +1,64 @@
+.footer{
+    & li{
+        cursor: pointer;
+    }
+    & a:active, a:link, a:visited{
+        text-decoration: none;
+    }
+    & a:hover{
+        color:var(--manhattan);
+        transform: translateX(5px);
+        font-weight: bold;
+    }
+    & li{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;    
+    }
+    & .footer-container{  
+        background-color: var(--christine);
+        padding:1% 3% ;
+        margin: 0;
+     }
+
+    & .footerCopyRight{
+        background-color: var(--rangoon-green); 
+        padding: 10px 0;       
+         & p{
+            text-align: center;
+            color: var(--white) !important;
+        }
+     }
+    & .btn-top{
+        position: fixed;
+        bottom: 20px;
+        left: 95%;
+
+    }
+    & .logoFooter{
+         width: 50%;
+     }
+}
+
+.newsletter{
+    & .sub-container{
+        border: 2px solid rgb(90, 90, 90);
+        display: grid;
+        grid-template-columns: 80% 20%;
+        height: 40px;
+        & input {
+            border: none;
+            padding-left: 10px;
+        }
+    }
+    & .sub-button{
+        background-color: rgb(255, 106, 0);
+        border: none;
+    }
+
+    & .sub-title{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+}
+
