@@ -69,12 +69,12 @@ export default function Footer() {
               <Typography variant="h6">Usefull Link</Typography>
               <Grid container spacing={4}>
                 <Grid item xs={6} lg={5} sm={6} sx={{ display: "flex", flexDirection: "column", marginTop:2 }}>
-                  <Link to="/">Home</Link>
-                  <Link to="/products">Products</Link>
-                  <Link to="/faq">FAQ</Link>
-                  <Link to="/about-us">About us</Link>
-                  <Link to="/blog">Blog</Link>
-                  <Link to="/contact-us">Contact us</Link>
+                  <Link to="/be-trendy">Home</Link>
+                  <Link to="/be-trendy/products">Products</Link>
+                  <Link to="/be-trendy/faq">FAQ</Link>
+                  <Link to="/be-trendy/about-us">About us</Link>
+                  <Link to="/be-trendy/blog">Blog</Link>
+                  <Link to="/be-trendy/contact-us">Contact us</Link>
                 </Grid>
                 <Grid item xs={6} lg={7} sm={6} sx={{ display: "flex", flexDirection: "column", marginTop:2  }}>
                   <Link to="/privacy-policy">Privacy Policy</Link>

@@ -158,7 +158,7 @@ const SignUp = () => {
           <MediaAuthBtn variant="outlined" startIcon={<GoogleIcon /> } sx={{backgroundColor:"var(--google-btn)"}}>Sign up with Google</MediaAuthBtn>             
           <MediaAuthBtn variant="outlined" startIcon={<FacebookIcon />} sx={{backgroundColor:"var(--facebook-btn)"}}>Sign up with Facebook</MediaAuthBtn>  
           <MediaAuthBtn variant="outlined" startIcon={<AppleIcon />} sx={{backgroundColor:"var(--apple-btn)"}}>Sign up with Appel</MediaAuthBtn>  
-          <TextAuth>Already have an account? <Link to="/login"  style={{ color:"blue" }}>Sign in</Link></TextAuth>         
+          <TextAuth>Already have an account? <Link to="/be-trendy/login"  style={{ color:"blue" }}>Sign in</Link></TextAuth>         
       </Box>
     </ContainerAuth>  
     )

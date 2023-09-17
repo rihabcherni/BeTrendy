@@ -36,15 +36,15 @@ function NavHeader() {
               </Search>
               <Tabs sx={{ marginLeft:"auto"}} textColor="inherit" onChange={(e, value)=>setValue(value)}value={value} indicatorColor="secondary">   
                 {PAGES.map((page, index) => (
-                  <Tab key={index} label={page} sx={{ textTransform:'capitalize' }} component={StyledLink} to={(page !== "Home" ? `/${page.toLowerCase()}` :`/` )}/>
+                  <Tab key={index} label={page} sx={{ textTransform:'capitalize' }} component={StyledLink} to={(page !== "Home" ? `/be-trendy/${page.toLowerCase()}` :`/be-trendy` )}/>
 
                 ))}
               </Tabs>
                 <StyledBtn sx={{ marginLeft: "10px",color:"white", backgroundColor:"rgb(255, 106, 0)"}} variant="contained">
-                  <StyledLink to='/login'>Login</StyledLink>
+                  <StyledLink to='/be-trendy/login'>Login</StyledLink>
                 </StyledBtn>
                 <StyledBtn sx={{ marginLeft: "10px",color:"white",  backgroundColor:"rgb(255, 106, 0)"}} variant="contained">
-                  <StyledLink to='/sign-up'>Sign Up</StyledLink>
+                  <StyledLink to='/be-trendy/sign-up'>Sign Up</StyledLink>
                 </StyledBtn>
                 <DarkLightBtn/>
             </>

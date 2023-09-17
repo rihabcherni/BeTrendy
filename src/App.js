@@ -1,11 +1,10 @@
-
 import LinkCustomer from './User/customer/LinkCustomer';
 import LinkVisitor from './User/visitor/LinkVisitor';
 import LinkAdmin from './User/admin/LinkAdmin';
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./Theme";
-
 import './App.scss'
+
 const AppRoutes=()=> {
 	if("auth_token" in localStorage){
 		if(localStorage.getItem("Role")=== "admin"){

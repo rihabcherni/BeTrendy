@@ -108,13 +108,13 @@ const Login = () => {
           </InputAuth>
           <ButtonAuth aria-label="sumbit-login" type='submit' variant="contained"> Login </ButtonAuth>   
             <Typography sx={{textAlign:"center"}}>
-              <Link style={{color:"blue"}} to="/forgot-password" > Forgot password</Link>
+              <Link style={{color:"blue"}} to="/be-trendy/forgot-password" > Forgot password</Link>
             </Typography>
             <Divider variant="middle" sx={{ color:"var(--dusty-gray)" }}>or</Divider>
             <MediaAuthBtn variant="outlined" startIcon={<GoogleIcon /> } sx={{backgroundColor:"var(--google-btn)"}}>Sign in with Google</MediaAuthBtn>             
             <MediaAuthBtn variant="outlined" startIcon={<FacebookIcon />} sx={{backgroundColor:"var(--facebook-btn)"}}>Sign in with Facebook</MediaAuthBtn>  
             <MediaAuthBtn variant="outlined" startIcon={<AppleIcon />} sx={{backgroundColor:"var(--apple-btn)"}}>Sign in with Appel</MediaAuthBtn>  
-            <TextAuth>Don't have an  account? <Link to="/sign-up" style={{ color:"blue" }}>Sign up</Link></TextAuth>              
+            <TextAuth>Don't have an  account? <Link to="/be-trendy/sign-up" style={{ color:"blue" }}>Sign up</Link></TextAuth>              
         </Box>
     </ContainerAuth>  
   )

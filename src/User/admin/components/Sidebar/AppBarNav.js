@@ -157,19 +157,19 @@ export default function AppBarNav(props) {
             transformOrigin={{ horizontal: 'right', vertical: 'top' }}
             anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
           >
-            <Link to={`/${user}/profile`}>
+            <Link to={`/be-trendy/${user}/profile`}>
               <MenuItem onClick={handleMenuClose}>
                 <IconButton size="small" aria-label="AccountCircle"><AccountCircle /></IconButton>
                 <Typography variant='subtitle2'>Profile</Typography>                
               </MenuItem>
             </Link>
-            <Link to={`/${user}/update-password`}>
+            <Link to={`/be-trendy/${user}/update-password`}>
               <MenuItem onClick={handleMenuClose}>
                 <IconButton size="small" aria-label="update-password"><HttpsIcon /></IconButton>
                 <Typography variant='subtitle2'>Update password</Typography>     
               </MenuItem>
             </Link>
-            <Link to={`/`}>
+            <Link to={`/be-trendy`}>
               <MenuItem onClick={() => { handleMenuClose(); logoutSubmit(); }}>
                 <IconButton size="small" aria-label="logout-btn"><ExitToAppIcon /></IconButton>
                 <Typography variant='subtitle2'>Logout</Typography>     

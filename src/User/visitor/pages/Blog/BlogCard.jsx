@@ -61,7 +61,7 @@ export  const BlogCard = ({ title, author,slug, date, content, contentDetails, l
               </CardContent>
               <CardActions disableSpacing sx={{ alignItems:"center"}}>
                 <Button  aria-label="show more">
-                  <Link to={`/blog/${slug}`}>Show More</Link>
+                  <Link to={`/be-trendy/blog/${slug}`}>Show More</Link>
                 </Button>
                 <Box sx={{flexGrow:1}}/>
                 <ControlledOpenSpeedDial/>

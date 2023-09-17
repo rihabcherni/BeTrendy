@@ -23,56 +23,56 @@ const DrawerComp = () => {
         return (
           <>
             <ListItemIcon><HomeIcon/></ListItemIcon>
-            <StyledLink to="/"><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
+            <StyledLink to="/be-trendy"><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
           </>
         );
       case "Products":
         return (
           <>
             <ListItemIcon><InventoryIcon/></ListItemIcon>
-            <StyledLink to="/products"><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>          
+            <StyledLink to="/be-trendy/products"><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>          
           </>
         );
       case "FAQ":
         return (
           <>
             <ListItemIcon><QuizIcon/></ListItemIcon>
-            <StyledLink to="/faq" ><ListItemText sx={{fontWeight: "bold", color: "grey"}}>{element}</ListItemText></StyledLink>          
+            <StyledLink to="/be-trendy/faq" ><ListItemText sx={{fontWeight: "bold", color: "grey"}}>{element}</ListItemText></StyledLink>          
           </>
         );
       case "About-us":
         return (
           <>
             <ListItemIcon> <InfoIcon /></ListItemIcon>
-            <StyledLink to="/about-us"><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
+            <StyledLink to="/be-trendy/about-us"><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
           </>
         );
       case "Blog":
         return (
           <>
             <ListItemIcon><PostAddIcon /></ListItemIcon>
-            <StyledLink to="/blog" ><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
+            <StyledLink to="/be-trendy/blog" ><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
           </>
       );
       case "Contact-us":
         return (
           <>
             <ListItemIcon><ContactMailIcon/></ListItemIcon>
-            <StyledLink to="/contact-us" ><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
+            <StyledLink to="/be-trendy/contact-us" ><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
           </>
         );
       case "Login":
         return (
           <>
             <ListItemIcon><LoginIcon/></ListItemIcon>
-            <StyledLink to="/login" ><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
+            <StyledLink to="/be-trendy/login" ><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
           </>
         );
       case "Sign Up":
         return (
           <>
             <ListItemIcon><AppRegistrationIcon/></ListItemIcon>
-            <StyledLink to="/sign-up"><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
+            <StyledLink to="/be-trendy/sign-up"><ListItemText sx={{ fontWeight: "bold", color: "grey" }}>{element}</ListItemText></StyledLink>
           </>
         );
       default:

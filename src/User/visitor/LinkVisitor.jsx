@@ -19,20 +19,20 @@ function LinkVisitor() {
  return(
         <>
             <Routes>    
-              <Route path='/login' element={<Login/>}></Route>  
-              <Route path='/sign-up' element={<SignUp/>}></Route>
-              <Route path='/forgot-password' element={<ForgotPassword/>}></Route>
-              <Route path='/update-password' element={<UpdatePassword/>}></Route>  
-              <Route path='/reset-password' element={<ResetPassword/>}></Route>  
-              <Route path='/' element={<VisitorInterface/>}>	
+              <Route path='/be-trendy/login' element={<Login/>}></Route>  
+              <Route path='/be-trendy/sign-up' element={<SignUp/>}></Route>
+              <Route path='/be-trendy/forgot-password' element={<ForgotPassword/>}></Route>
+              <Route path='/be-trendy/update-password' element={<UpdatePassword/>}></Route>  
+              <Route path='/be-trendy/reset-password' element={<ResetPassword/>}></Route>  
+              <Route path='/be-trendy' element={<VisitorInterface/>}>	
                 <Route index element={ <Home/>}/>
-                <Route path='/faq' element={<Faq/>}></Route>
-                <Route path='/contact-us' element={<Contact/>}></Route>
-                <Route path='/about-us' element={<AboutUs/>}></Route>
-                <Route path='/products' element={<Product/>}></Route>
-                <Route path='/blog' element={<Blog/>}></Route>
-                <Route path='/blog/:slug' element={<BlogSinglePage/>}></Route>
-                <Route path='/ChatBot' element={<ChatBot/>}></Route>
+                <Route path='faq' element={<Faq/>}></Route>
+                <Route path='contact-us' element={<Contact/>}></Route>
+                <Route path='about-us' element={<AboutUs/>}></Route>
+                <Route path='products' element={<Product/>}></Route>
+                <Route path='blog' element={<Blog/>}></Route>
+                <Route path='blog/:slug' element={<BlogSinglePage/>}></Route>
+                <Route path='ChatBot' element={<ChatBot/>}></Route>
                 <Route path='*' element={<Page404/>}/>
               </Route>
             </Routes>

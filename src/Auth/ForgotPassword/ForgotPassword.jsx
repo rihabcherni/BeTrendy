@@ -45,7 +45,7 @@ const ForgotPassword = () => {
               </StyledBtn>
           </form>
           <Typography sx={{textAlign:"center"}}>
-              <Link to="/login">Back to login</Link>
+              <Link to="/be-trendy/login">Back to login</Link>
           </Typography>  
       </div>
     )

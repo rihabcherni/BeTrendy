@@ -20,18 +20,18 @@ import BlogSinglePage from '../visitor/pages/Blog/BlogSinglePage';
 function LinkAdmin() {
   return (
     <Routes>
-      <Route path='/' element={<VisitorInterface/>}/>
+      <Route path='/be-trendy' element={<VisitorInterface/>}/>
       <Route path='/login' element={<Navigate to="/admin"/>}/>
       <Route path='/sign-up' element={<Navigate to="/admin"/>}/>
-      <Route path='/' element={<VisitorInterface/>}>	
+      <Route path='/be-trendy' element={<VisitorInterface/>}>	
         <Route index element={ <Home/>}/>
-        <Route path='/faq' element={<Faq/>}></Route>
-        <Route path='/contact-us' element={<Contact/>}></Route>
-        <Route path='/about-us' element={<AboutUs/>}></Route>
-        <Route path='/products' element={<Product/>}></Route>
-        <Route path='/blog' element={<Blog/>}></Route>
-        <Route path='/blog/:slug' element={<BlogSinglePage/>}></Route>
-        <Route path='/ChatBot' element={<ChatBot/>}></Route>
+        <Route path='faq' element={<Faq/>}></Route>
+        <Route path='contact-us' element={<Contact/>}></Route>
+        <Route path='about-us' element={<AboutUs/>}></Route>
+        <Route path='products' element={<Product/>}></Route>
+        <Route path='blog' element={<Blog/>}></Route>
+        <Route path='blog/:slug' element={<BlogSinglePage/>}></Route>
+        <Route path='ChatBot' element={<ChatBot/>}></Route>
       </Route>
       <Route path='/admin' element={<AdminInterface/>}>	
         <Route index element={<DashboardAdmin/>}/>
